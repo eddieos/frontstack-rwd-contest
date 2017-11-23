@@ -1,0 +1,266 @@
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+body, html {
+    height: 100%;
+}
+.parallax {
+    /* The image used */
+    background-image: url('../assets/images/mosque.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero {
+    width: 100%;
+    height: 478px;
+    background: linear-gradient(180deg, #EB5757 0%, #D59152 100%);
+}
+.logo {
+    position: absolute;
+    width: 105px;
+    height: 40px;
+    left: 40px;
+    top: 26px;
+}
+.logo-text {
+    position: absolute;
+    padding-left: 12px;
+    top: 12px;
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.main-menu {
+    position: relative;
+    text-align: center;
+    top: 37px;
+    color: #FFFFFF;
+}
+.main-menu-item {
+    font-family: Catamaran;
+    text-transform: uppercase;
+    line-height: normal;
+    font-weight: 500;
+}
+.main-menu-item li {
+    display: inline;
+    padding: 17px;
+}
+.sign-button {
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+}
+.sign-button a {
+    position: absolute;
+    width: 175px;
+    height: 54px;
+    right: 40px;
+    top: 23px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    line-height: 54px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    transition: all 0.3s;
+}
+.sign-button a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.hero {
+    width: 750px;
+    margin: 145px auto;
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 67px;
+    font-size: 64px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.search {
+    margin-top: 70px;
+}
+.search-label {
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+.search-bar {
+}
+.search-bar input {
+    text-align: center;
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 18px;
+    color: #C3C0C0;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 40px;
+    border: 3px solid #F2994A;
+    width: 600px;
+    height: 80px;
+    margin: auto;
+}
+.page-body {
+    padding-top: 200px;
+    text-align: center;
+    margin: auto;
+    width: 904px;
+}
+.page-body .title {
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    color: #C3C0C0;
+}
+.page-body .text {
+    margin-top: 50px;
+    width: 904px;
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+}
+.locations {
+    padding-top: 120px;
+    margin: auto;
+    width: 1200px;
+}
+.location-item {
+    display: inline-block;
+    background-color: chocolate;
+    width: 350px;
+    height: 400px;
+    margin: 0 30px;
+    border-radius: 5px;
+}
+.location-item.item-1 {
+    margin-left: 0;
+}
+.location-item.item-3 {
+    margin-right: 0;
+}
+.see-more-button {
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    width: 200px;
+    height: 60px;
+    padding-top: 100px;
+    text-align: center;
+    margin: auto;
+}
+.see-more-button a{
+    padding: 10px 30px;
+    border: 2px solid #E36F55;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: #E46F55;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.see-more-button a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.bg-blog {
+    margin-top: 60px;
+    width: 100%;
+    height: 500px;
+}
+.bg-blog:before {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 500px;
+    content: '';
+    background: linear-gradient(180deg, #E36E55 0%, #D78F52 100%);
+    -webkit-clip-path: polygon(0 0, 43% 0, 33% 100%, 0 100%);
+    clip-path: polygon(0 0, 43% 0, 33% 100%, 0 100%);
+}
+.blog_inner {
+    position: relative;
+    padding: 150px 250px;
+    width: 400px;
+}
+.bg-blog p {
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    color: #FEBE61;
+}
+.bg-blog h1{
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 77px;
+    font-size: 72px;
+
+    color: #FFFFFF;
+
+}
+footer {
+    padding: 70px 90px;
+}
+footer p {
+    font-family: Catamaran;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    color: #A9A9A9;
+}
