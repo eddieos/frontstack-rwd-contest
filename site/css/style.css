@@ -1,3 +1,7 @@
+.row {
+    width: fit-content;
+    margin: auto;
+}
 .row::after {
     content: "";
     clear: both;
@@ -5,13 +9,11 @@
 }
 [class*="col-"] {
     float: left;
-    padding: 15px;
-    border: 1px solid red;
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
+.col-4 {width: 30%;}
 .col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
 .col-7 {width: 58.33%;}
@@ -173,18 +175,47 @@ body, html {
     width: 1200px;
 }
 .location-item {
-    display: inline-block;
-    background-color: chocolate;
     width: 350px;
     height: 400px;
-    margin: 0 30px;
+    margin: 0 20px;
     border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .location-item.item-1 {
-    margin-left: 0;
+    background-image: url('../assets/images/flex.jpg');
+}
+.location-item.item-2 {
+    background-image: url('../assets/images/chair.jpg');
 }
 .location-item.item-3 {
-    margin-right: 0;
+    background-image: url('../assets/images/porshe.jpg');
+}
+.locations-name {
+    font-family: Catamaran;
+    width: 350px;
+    height: 400px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 32px;
+    color: #FFFFFF;
+    position: absolute;
+    word-break: keep-all;
+    word-wrap: normal;
+    background-color: rgba(4, 4, 4, 0.5);
+    border-radius: inherit;
+}
+.locations-title {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+.locations-subtitle {
+    font-size: 18px;
+    color: #D78E52;
+
 }
 .see-more-button {
     font-family: Catamaran;
@@ -231,7 +262,7 @@ body, html {
 }
 .blog_inner {
     position: relative;
-    padding: 150px 250px;
+    padding: 150px 220px;
     width: 400px;
 }
 .bg-blog p {
@@ -249,9 +280,8 @@ body, html {
     font-weight: bold;
     line-height: 77px;
     font-size: 72px;
-
+    margin-top: 30px;
     color: #FFFFFF;
-
 }
 footer {
     padding: 70px 90px;
