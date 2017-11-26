@@ -1,0 +1,174 @@
+@media (max-width: 768px) {
+    #hero {
+        position: relative;
+        height: auto;
+    }
+    .hero {
+        width: 90vw;
+        margin: 60px auto 0;
+        line-height: 36px;
+        font-size: 36px;
+        color: #FFFFFF;
+    }
+    .search {
+        margin-top: 0px;
+        position: relative;
+        top: 28px;
+    }
+    .logo {
+        width: 105px;
+        height: 40px;
+        left: 10px;
+        top: 26px;
+    }
+    .main-menu {
+        opacity: 0;
+        pointer-events: none;
+    }
+    .sign-button a {
+        display: none;
+    }
+    .see-more-button {
+        font-size: 12px;
+        width: 130px;
+        height: 44px;
+        padding-top: 20px;
+    }
+    .search-label {
+        font-size: 20px;
+        margin-bottom: 10px;
+        width: 90vw;
+    }
+    .search-bar input {
+        width: 90%;
+        font-size: 12px;
+        border: 2px solid #F2994A;
+        height: 55px;
+    }
+    .page-body {
+        padding-top: 60px;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+    .page-body .text {
+        margin: 25px auto;
+        width: 90%;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .parallax {
+        background-attachment: scroll;
+    }
+    .locations {
+        padding-top: 20px;
+        width: 90vw;
+    }
+    .location-item {
+        height: 200px;
+        margin: 10px 0;
+    }
+    .locations-name, .location-item.item-1, .location-item.item-2, .location-item.item-3 {
+        width: 90vw;
+        height: 200px;
+    }
+
+    .bg-blog:before {
+        height: 250px;
+        opacity: 0.7;
+        background: linear-gradient(180deg, #E36E55 0%, #D78F52 100%);
+        -webkit-clip-path: none;
+        clip-path: none;
+    }
+    .blog_inner {
+        position: relative;
+        padding-top: 30px;
+        margin: auto;
+        width: 70vw;
+        top: 0;
+        left: 0
+    }
+    .bg-blog {
+        margin-top: 20px;
+        width: 100%;
+        height: 250px;
+        transition: all 0.3s;
+    }
+    .bg-blog h1 {
+        line-height: 60px;
+        font-size: 60px;
+        margin-top: 5px;
+    }
+    footer {
+        padding: 20px 10px;
+        margin-bottom: 20px;
+    }
+    footer a {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .search-bar input {
+        width: 400px;
+    }
+    .page-body {
+        width: 90vw;
+        padding-top: 100px;
+    }
+    .page-body .text {
+        width: 90vw;
+        margin-top: 30px;
+    }
+
+    .locations {
+        padding-top: 80px;
+        width: 90vw;
+    }
+    .location-item {
+        height: 200px;
+        margin: 10px 0;
+    }
+    .locations-name, .location-item.item-1, .location-item.item-2, .location-item.item-3 {
+        width: 90vw;
+        height: 200px;
+    }
+    .bg-blog:before {
+        -webkit-clip-path: polygon(0 0, 56% 0, 45% 100%, 0% 100%);
+        clip-path: polygon(0 0, 56% 0, 45% 100%, 0% 100%);
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .locations {
+        padding-top: 80px;
+        margin: auto;
+        width: 900px;
+    }
+    .location-item {
+        width: 280px;
+        height: 350px;
+        margin: 0 10px;
+    }
+
+    .locations-name {
+        width: 280px;
+        height: 350px;
+        font-size: 28px;
+    }
+    .locations-title {
+        bottom: 20px;
+        left: 20px;
+    }
+    .bg-blog:before {
+        -webkit-clip-path: polygon(0 0, 71% 0, 52% 100%, 0% 100%);
+        clip-path: polygon(0 0, 71% 0, 52% 100%, 0% 100%);
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+}
