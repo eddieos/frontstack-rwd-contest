@@ -109,12 +109,12 @@ body, html {
     position: relative;
     text-align: center;
     top: 37px;
-    color: #FFFFFF;
+    width: 400px;
+    margin: auto;
     transition: all 0.2s;
 }
 
 .main-menu-item {
-
     text-transform: uppercase;
     line-height: normal;
     font-weight: 500;
@@ -125,13 +125,25 @@ body, html {
     padding: 17px;
 }
 
+.main-menu-item a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .sign-button {
     font-style: normal;
     font-weight: bold;
     line-height: normal;
     font-size: 14px;
 }
-
+.mobile-menu {
+    position: absolute;
+    font-size: 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+    right: 20px;
+    top: 30px;
+}
 .sign-button a {
     position: absolute;
     width: 175px;
@@ -164,7 +176,7 @@ body, html {
 }
 
 .search {
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .search-label {

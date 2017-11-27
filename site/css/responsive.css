@@ -5,7 +5,7 @@
     }
     .hero {
         width: 90vw;
-        margin: 60px auto 0;
+        margin: 80px auto 0;
         line-height: 36px;
         font-size: 36px;
         color: #FFFFFF;
@@ -107,7 +107,11 @@
         font-size: 14px;
     }
 }
-
+@media (min-width: 768px) {
+   .mobile-menu {
+       display: none;
+   }
+}
 @media (min-width: 768px) and (max-width: 992px) {
     .search-bar input {
         width: 400px;
@@ -166,9 +170,51 @@
         -webkit-clip-path: polygon(0 0, 71% 0, 52% 100%, 0% 100%);
         clip-path: polygon(0 0, 71% 0, 52% 100%, 0% 100%);
     }
-
+    .page-body {
+        padding-top: 120px;
+    }
 }
 
 @media (min-width: 1200px) {
 
 }
+
+.sidenav {
+    text-transform: uppercase;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 70px;
+    text-align:center;
+}
+
+.sidenav a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
