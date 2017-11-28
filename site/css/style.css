@@ -68,7 +68,7 @@ body, html {
 
 .parallax {
     /* The image used */
-    background-image: url('../assets/images/mosque.jpg');
+    background-image: url('http://res.cloudinary.com/ziippii/image/upload/v1511851817/mosque_pnzpkh.jpg');
 
     /* Full height */
     height: 100%;
@@ -256,15 +256,15 @@ body, html {
 }
 
 .location-item.item-1 {
-    background-image: url('../assets/images/flex.jpg');
+    background-image: url('http://res.cloudinary.com/ziippii/image/upload/v1511851826/flex_mtcxhz.jpg');
 }
 
 .location-item.item-2 {
-    background-image: url('../assets/images/chair.jpg');
+    background-image: url('http://res.cloudinary.com/ziippii/image/upload/v1511851828/chair_iriyj9.jpg');
 }
 
 .location-item.item-3 {
-    background-image: url('../assets/images/porshe.jpg');
+    background-image: url('http://res.cloudinary.com/ziippii/image/upload/v1511851830/porshe_podzty.jpg');
 }
 
 .locations-name {
