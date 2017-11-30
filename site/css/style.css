@@ -288,6 +288,10 @@ body, html {
     bottom: 40px;
     left: 40px;
 }
+.locations-title a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
 .locations-subtitle {
     font-size: 18px;
